@@ -15,7 +15,6 @@ class ProductProduct(models.Model):
         inverse="_inverse_image_ids",
     )
 
-
     @api.depends(
         "product_tmpl_id",
         "product_tmpl_id.image_ids",

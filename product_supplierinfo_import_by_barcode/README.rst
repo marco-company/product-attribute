@@ -1,6 +1,6 @@
-=====================================
-Import supplier pricelists by barcode
-=====================================
+==========================
+Import supplier pricelists
+==========================
 
 .. 
    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -28,8 +28,8 @@ Import supplier pricelists by barcode
 
 |badge1| |badge2| |badge3| |badge4| |badge5|
 
-This module allows to import vendor price lists from excel files
-matching the products from their barcode.
+This module allows importing vendor price lists from Excel files,
+matching products using any product template char field.
 
 **Table of contents**
 
@@ -45,14 +45,34 @@ store in our pricelist.
 
 To do so:
 
-1. Go to *Purchase > Configuration > Vendor pricelist import templates*.
-2. Edit or create a new one.
-3. Set the name of the header to match by barcode.
-4. Set a headers mapping with the rest header names and which fields we
-   should update.
-5. A header mapping could have no related field, but is important to
-   have it if we want to detect the sheet data when we are importing.
-6. The order isn't important.
+1.  Go to *Purchase > Configuration > Vendor pricelist import
+    templates*.
+2.  Edit or create a new one.
+3.  Create a template name.
+4.  Assign a default supplier. (Set a default supplier that will be
+    associated with this template)
+5.  In the **Header Offset**, determine the line where the headers are
+    located. (Specify the line number where the column headers are found
+    in your sheet file)
+6.  In the **Sheet Number**, we will be able to specify the page number
+    to select it.
+7.  In the **Search Header Name**, set the name of the column you want
+    to filter by. (Indicate the column name used for filtering the data)
+8.  In the Search Field, set the data you want to filter by. (Specify
+    the field used for filtering)
+9.  Set a headers mapping with the rest header names and which fields we
+    should update. (Map the remaining header names to the corresponding
+    fields that should be updated in the system)
+10. A header mapping could have no related field, but is important to
+    have it if we want to detect the sheet data when we are importing.
+11. The order isn't important. (The order of the header mappings does
+    not affect the import process)
+12. If **Only Update Existing** is checked, only existing pricelists
+    will be updated; no new ones will be created.
+13. If **Show Not Updated Rates** is enabled, the unupdated rates will
+    be shown grouped at the end of the import.
+14. If a column in the sheet is empty, set a field with a space (" ")
+    inside to ensure a match.
 
 Usage
 =====
@@ -65,9 +85,14 @@ To use this module, you need to:
    and the lead days.
 4. Click on import and view.
 
-I a template for that file is configured, it will match the headers with
-the column values and create or update the vendor pricelists
+If a template for that file is configured, it will match the headers
+with the column values and create or update the vendor pricelists
 accordingly.
+
+Known issues / Roadmap
+======================
+
+Rename the module in future migrations to product_supplierinfo_import.
 
 Bug Tracker
 ===========
@@ -93,6 +118,7 @@ Contributors
 - `Tecnativa <https://tecnativa.com>`__
 
   - David Vidal
+  - Juan Carlos Oñate
 
 Maintainers
 -----------

@@ -6,8 +6,6 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-19 08:58+0000\n"
-"PO-Revision-Date: 2025-06-19 08:58+0000\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -116,6 +114,7 @@ msgid "Import Criteria Field"
 msgstr ""
 
 #. module: product_supplierinfo_import_by_barcode
+#: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_customerinfo__import_status
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo__import_status
 msgid "Import Status"
 msgstr ""
@@ -163,6 +162,7 @@ msgid "Name"
 msgstr ""
 
 #. module: product_supplierinfo_import_by_barcode
+#: model:ir.model.fields.selection,name:product_supplierinfo_import_by_barcode.selection__product_customerinfo__import_status__new_or_updated
 #: model:ir.model.fields.selection,name:product_supplierinfo_import_by_barcode.selection__product_supplierinfo__import_status__new_or_updated
 msgid "New or Updated"
 msgstr ""
@@ -270,6 +270,7 @@ msgid "This product was created with the vendor import wizard"
 msgstr ""
 
 #. module: product_supplierinfo_import_by_barcode
+#: model:ir.model.fields.selection,name:product_supplierinfo_import_by_barcode.selection__product_customerinfo__import_status__unchanged
 #: model:ir.model.fields.selection,name:product_supplierinfo_import_by_barcode.selection__product_supplierinfo__import_status__unchanged
 msgid "Unchanged"
 msgstr ""

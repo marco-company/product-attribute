@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 15.0\n"
+"Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -37,6 +37,11 @@ msgid ""
 msgstr ""
 
 #. module: product_multi_image
+#: model:ir.model.fields,field_description:product_multi_image.field_product_template__image_1920
+msgid "Image 1920"
+msgstr ""
+
+#. module: product_multi_image
 #: model:ir.model.fields,field_description:product_multi_image.field_product_product__image_ids
 #: model:ir.model.fields,field_description:product_multi_image.field_product_template__image_ids
 #: model_terms:ir.ui.view,arch_db:product_multi_image.product_variant_easy_edit_view
@@ -45,36 +50,18 @@ msgid "Images"
 msgstr ""
 
 #. module: product_multi_image
-#: model:ir.model.fields,field_description:product_multi_image.field_product_product__image_main
-#: model:ir.model.fields,field_description:product_multi_image.field_product_template__image_main
-msgid "Main image"
-msgstr ""
-
-#. module: product_multi_image
-#: model:ir.model.fields,field_description:product_multi_image.field_product_product__image_main_medium
-#: model:ir.model.fields,field_description:product_multi_image.field_product_template__image_main_medium
-msgid "Medium image"
-msgstr ""
-
-#. module: product_multi_image
-#: model:ir.model,name:product_multi_image.model_product_product
+#: model:ir.model,name:product_multi_image.model_product_template
 msgid "Product"
 msgstr ""
 
 #. module: product_multi_image
-#: model:ir.model,name:product_multi_image.model_product_template
-msgid "Product Template"
+#: model:ir.model,name:product_multi_image.model_product_product
+msgid "Product Variant"
 msgstr ""
 
 #. module: product_multi_image
 #: model:ir.model.fields,field_description:product_multi_image.field_base_multi_image_image__product_variant_count
 msgid "Product Variant Count"
-msgstr ""
-
-#. module: product_multi_image
-#: model:ir.model.fields,field_description:product_multi_image.field_product_product__image_main_small
-#: model:ir.model.fields,field_description:product_multi_image.field_product_template__image_main_small
-msgid "Small image"
 msgstr ""
 
 #. module: product_multi_image

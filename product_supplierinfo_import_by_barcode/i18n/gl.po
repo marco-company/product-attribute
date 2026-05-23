@@ -6,87 +6,89 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 16.0\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
+"PO-Revision-Date: 2026-05-23 16:43+0000\n"
+"Last-Translator: Pablo Castelo <pablocv@gmx.es>\n"
 "Language-Team: none\n"
 "Language: gl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.15.2\n"
 
 #. module: product_supplierinfo_import_by_barcode
 #: model_terms:ir.ui.view,arch_db:product_supplierinfo_import_by_barcode.product_supplierinfo_import_form
 msgid "Cancel"
-msgstr ""
+msgstr "Cancelar"
 
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.model.fields,help:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import_template_line__header_name
 msgid "Copy it directly from the origin cell so it matches right"
-msgstr ""
+msgstr "Cópieo directamente da cela de orixe para asegurar a coincidencia"
 
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import__create_new_products
 msgid "Create New Products"
-msgstr ""
+msgstr "Crear novos produtos"
 
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_product__created_from_supplierinfo_import
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_template__created_from_supplierinfo_import
 msgid "Created From Supplierinfo Import"
-msgstr ""
+msgstr "Creado desde importación de tarifa de provedor"
 
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import__create_uid
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import_template__create_uid
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import_template_line__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Creado por"
 
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import__create_date
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import_template__create_date
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import_template_line__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Creado o"
 
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import__delay
 msgid "Delay"
-msgstr ""
+msgstr "Atraso"
 
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import__display_name
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import_template__display_name
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import_template_line__display_name
 msgid "Display Name"
-msgstr ""
+msgstr "Nome mostrado"
 
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import_template_line__field_id
 msgid "Field"
-msgstr ""
+msgstr "Campo"
 
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import_template_line__header_name
 msgid "Header Name"
-msgstr ""
+msgstr "Nome de cabeceira"
 
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import_template__header_offset
 msgid "Header Offset"
-msgstr ""
+msgstr "Salto de cabeceira"
 
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import_template__template_line_ids
 msgid "Headers mapping"
-msgstr ""
+msgstr "Mapeo de cabeceiras"
 
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import__id
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import_template__id
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import_template_line__id
 msgid "ID"
-msgstr ""
+msgstr "ID (identificación)"
 
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.model.fields,help:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import__create_new_products
@@ -123,44 +125,44 @@ msgstr ""
 #. module: product_supplierinfo_import_by_barcode
 #: model_terms:ir.ui.view,arch_db:product_supplierinfo_import_by_barcode.product_supplierinfo_import_form
 msgid "Import and View"
-msgstr ""
+msgstr "Importar e ver"
 
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.model,name:product_supplierinfo_import_by_barcode.model_product_supplierinfo_import
 msgid "Import supplier info records"
-msgstr ""
+msgstr "Importar rexistros de tarifa de provedor"
 
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.actions.act_window,name:product_supplierinfo_import_by_barcode.product_supplierinfo_import_action
 #: model:ir.ui.menu,name:product_supplierinfo_import_by_barcode.product_supplierinfo_import_menu
 msgid "Import vendor pricelists"
-msgstr ""
+msgstr "Importar tarifas de provedor"
 
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import____last_update
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import_template____last_update
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import_template_line____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Última modificación en"
 
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import__write_uid
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import_template__write_uid
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import_template_line__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Última actualización de"
 
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import__write_date
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import_template__write_date
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import_template_line__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Última actualización en"
 
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import_template__name
 msgid "Name"
-msgstr ""
+msgstr "Nome"
 
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.model.fields.selection,name:product_supplierinfo_import_by_barcode.selection__product_customerinfo__import_status__new_or_updated
@@ -183,7 +185,7 @@ msgstr ""
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.model,name:product_supplierinfo_import_by_barcode.model_product_template
 msgid "Product"
-msgstr ""
+msgstr "Produto"
 
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_product__product_code
@@ -210,7 +212,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import__supplier_id
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import_template__supplier_id
 msgid "Supplier"
-msgstr ""
+msgstr "Provedor"
 
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.model,name:product_supplierinfo_import_by_barcode.model_product_supplierinfo
@@ -220,23 +222,23 @@ msgstr ""
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import__supplierinfo_file
 msgid "Supplierinfo File"
-msgstr ""
+msgstr "Ficheiro de tarifa de provedor"
 
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import__supplierinfo_filename
 msgid "Supplierinfo Filename"
-msgstr ""
+msgstr "Nome de ficheiro de tarifa de provedor"
 
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import__template_id
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import_template_line__template_id
 msgid "Template"
-msgstr ""
+msgstr "Modelo"
 
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.model,name:product_supplierinfo_import_by_barcode.model_product_supplierinfo_import_template
 msgid "Templates to be detected when importing vendor pricelist"
-msgstr ""
+msgstr "Modelo para detectar ficheiros de importación de tarifas de provedor"
 
 #. module: product_supplierinfo_import_by_barcode
 #. odoo-python
@@ -268,7 +270,7 @@ msgstr ""
 #: model:ir.model.fields,help:product_supplierinfo_import_by_barcode.field_product_product__created_from_supplierinfo_import
 #: model:ir.model.fields,help:product_supplierinfo_import_by_barcode.field_product_template__created_from_supplierinfo_import
 msgid "This product was created with the vendor import wizard"
-msgstr ""
+msgstr "Este produto creouse co importador de tarifas de provedor"
 
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.model.fields.selection,name:product_supplierinfo_import_by_barcode.selection__product_customerinfo__import_status__unchanged
@@ -279,15 +281,15 @@ msgstr ""
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.model.fields,field_description:product_supplierinfo_import_by_barcode.field_product_supplierinfo_import__date_start
 msgid "Validity"
-msgstr ""
+msgstr "Validez"
 
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.model,name:product_supplierinfo_import_by_barcode.model_product_supplierinfo_import_template_line
 msgid "Vendor import columns and fields"
-msgstr ""
+msgstr "Columnas e campos para importación de tarifa de provedor"
 
 #. module: product_supplierinfo_import_by_barcode
 #: model:ir.actions.act_window,name:product_supplierinfo_import_by_barcode.product_supplierinfo_import_template_action
 #: model:ir.ui.menu,name:product_supplierinfo_import_by_barcode.product_supplierinfo_import_template_menu
 msgid "Vendor pricelists import templates"
-msgstr ""
+msgstr "Modelos para importación de tarifas de provedor"
